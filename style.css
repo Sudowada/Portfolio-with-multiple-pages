@@ -1,0 +1,351 @@
+/*headline code for header of homepage*/
+.headline{
+  display:flex;
+  padding:60px;
+  background-image: url("https://i.pinimg.com/originals/af/86/31/af86316c62dc0207071f6db160969e1f.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  object-fit:fill-box;
+  height:70vh;
+  justify-content:center;
+}
+h1{
+  color:white;
+}
+h3{
+  text-align:center;
+  margin:20px;
+  
+}
+h6{
+  
+  text-align:center;
+  color:white;
+  
+}
+/*Contact form*/
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #bbb5af;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #fffff;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family:sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+  
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #726659;
+  font-family:sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #b3aca7;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+#submit {
+  width: 470px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
+
+
+/*Card class used in projects area on homepage*/
+/* categories Grid coding*/
+#projectsGrid{
+  margin: 0px 5%;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-rows:auto auto auto ;
+}
+.card{
+  display:flex;
+  width: auto;
+  cursor: pointer;
+  margin:60px
+  
+ 
+}
+.card-img-top{
+  object-fit: cover;
+}
+.card-body{
+  width:auto;
+  margin:60px;
+  height:200px;
+}
+
+
+/*grid for about page*/
+#categoryGrid{
+  margin: 0px 5%;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:auto auto auto ;
+}
+/* Gradient that runs through the body */
+.gradient {
+  padding: 10em;
+  /* can be treated like a fallback */
+  background-color: #000000;;
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(#000000, #262626);
+}
+/* The p tags that are descendants of the section tags are the answers */
+.aboutp {
+  /* Typography declarations */
+  color:white;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-left:200px;
+  margin-right:200px;
+}
+.skillAbout{
+  color:white;
+  margin-right:60px;
+}
+h4{
+  color:white;
+}
+
+/* This class is included in the last p tag of each section to create more space */
+.space-maker {
+  /* Layout declarations */
+  margin-bottom: 3em;
+}
+
+/* FOOTER */
+.content-footer {
+  /* Layout declarations */
+  background: #000000;
+  padding: 10em;
+  border-bottom: 8px solid #EDEDED;
+}
+
+.content-footer > p {
+  /* Layout declarations */
+  line-height: 1.3em;
+  text-align: left;
+  /* Typography declarations */
+  font-size: 2em;
+}
+
+.social {
+  /* Layout declarations */
+  text-align: left;
+  padding: 0;
+}
+
+.social > li {
+  /* Layout declarations */
+  display: inline-block;
+  line-height: 1.3em;
+  margin-right: 2em;
+  /* Typography declarations */
+  font-size: 2em;
+}
+
+a {
+  /* Typography declarations */
+  color: #EDEDED;
+  text-decoration: none;
+}
+
+a:hover {
+  /* Layout declarations */
+  color: #262626;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.social li:last-child {
+  /* Layout declarations */
+  margin-right: 0;
+}
+
+/*Coding for responsiveness*/
+@media (max-width:1300px){
+  #projectsGrid{
+  
+  display: grid;
+  justify-content:center;
+  align-items:center;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:auto auto auto ;
+}
+.card{
+  
+  width:600px;
+  cursor: pointer;
+  
+  margin:auto-flow;
+  
+}
+    section p {
+  /* Typography declarations */
+  color:white;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-left:10px;
+  margin-right:10px;
+    }
+}
+@media (max-width:700px){
+  #projectsGrid{
+  justify-content:center;
+  align-items:center;
+  display: grid;
+  grid-template-columns:1fr  ;
+  grid-template-rows:auto auto auto ;
+  }
+  section p {
+  /* Typography declarations */
+  color:white;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-left:-100px;
+  margin-right:-100px;
+    }
+
+}
